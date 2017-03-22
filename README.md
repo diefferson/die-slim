@@ -3,13 +3,12 @@ Basic structure for a Slim Framework project
 
 ### Arquivos e diretórios necessários? ###
 
-* app
-* public
-* src
-* .gitignore
+* app ( Directório com arquivos de configuração do projeto )
+* public ( Diretório públic do projeto - FrontController )
+* src ( Diretório de códigos do Projeto )
+* .gitignore 
 * .htaccess
-* composer.json
-* composer.lock
+* composer.json 
 * composer.phar
 
 ### Como configurar? ###

@@ -1,7 +1,7 @@
 [![Latest Stable Version](https://poser.pugx.org/diefferson/die-slim/v/stable)](https://packagist.org/packages/diefferson/die-slim)
 [![Total Downloads](https://poser.pugx.org/diefferson/die-slim/downloads)](https://packagist.org/packages/diefferson/die-slim)
-[![Latest Unstable Version](https://poser.pugx.org/diefferson/die-slim/v/unstable)](https://packagist.org/packages/diefferson/die-slim)
-[![Latest Unstable Version](https://poser.pugx.org/diefferson/die-slim/v/unstable)](https://packagist.org/packages/diefferson/die-slim)
+[![License](https://poser.pugx.org/diefferson/die-slim/license)](https://packagist.org/packages/diefferson/die-slim)
+
 
 # die-slim #
 Basic structure for a Slim Framework project

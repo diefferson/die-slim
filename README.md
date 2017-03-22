@@ -1,3 +1,9 @@
+[![Latest Stable Version](https://packagist.org/packages/diefferson/die-slim)]
+[![Total Downloads](https://packagist.org/packages/diefferson/die-slim)]
+[![Latest Unstable Version](https://packagist.org/packages/diefferson/die-slim)]
+[![License](https://packagist.org/packages/diefferson/die-slim)]
+
+
 # die-slim #
 Basic structure for a Slim Framework project
 

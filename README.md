@@ -8,7 +8,12 @@ Basic structure for a Slim Framework project
 
 ### Install ###
 
-* composer require diefferson/die-slim
+* php composer.phar create-project diefferson/die-slim myProject
+
+ Ou
+ 
+ * php composer.phar require diefferson/die-slim 
+
 
 ### Como configurar? ###
 

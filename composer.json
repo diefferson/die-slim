@@ -1,0 +1,26 @@
+{
+    "name": "diefferson/die-slim",
+    "description": "Basic structure for a Slim Framework project",
+    "type": "project",
+    "keywords": ["Slim", "mvc",  "Structure"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diefferson Santos",
+            "email": "diefferson.sts@gmail.com",
+            "homepage": "https://github.com/diefferson",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/twig-view": "^2.0",
+        "monolog/monolog": "^1.13",
+        "slim/pdo": "^1.10"
+    }
+}

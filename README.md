@@ -10,11 +10,6 @@ Basic structure for a Slim Framework project
 
 * php composer.phar create-project diefferson/die-slim myProject
 
- Ou
- 
- * php composer.phar require diefferson/die-slim 
-
-
 ### Como configurar? ###
 
 * Após instalar o projeto é necessário realizar os seguintes passos

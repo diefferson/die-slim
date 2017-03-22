@@ -4,6 +4,7 @@
     "type": "project",
     "keywords": ["Slim", "mvc",  "Structure"],
     "license": "MIT",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Diefferson Santos",

@@ -1,17 +1,14 @@
 {
     "name": "diefferson/die-slim",
     "description": "Basic structure for a Slim Framework project",
-    "type": "project",
-    "keywords": ["Slim", "mvc",  "Structure"],
+    "keywords": ["slim", "mvc",  "structure", "skeleton"],
+    "homepage": "http://github.com/diefferson/die-slim",
     "license": "MIT",
-    "version": "1.0.0",
-    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Diefferson Santos",
             "email": "diefferson.sts@gmail.com",
             "homepage": "https://github.com/diefferson",
-            "role": "Developer"
         }
     ],
     "autoload": {

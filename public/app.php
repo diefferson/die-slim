@@ -7,6 +7,8 @@ $app = new \Slim\App($settings);
 
 require __DIR__ . '/../app/container.php';
 
+require __DIR__ . '/../app/errorHandlers.php';
+
 require __DIR__ . '/../app/controllers.php';
 
 require __DIR__ . '/../app/middlewares.php';

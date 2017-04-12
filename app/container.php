@@ -2,34 +2,6 @@
 
 $container = $app->getContainer();
 
-// Errors
-$container['errorHandler'] = function ($c) {
-
-    return function ($request, $response, $exception) use ($c) {
-
-        if( $c->settings['displayErrorDetails'] ) {
-
-            $data = [
-              'code' => $exception->getCode(),
-              'message' => $exception->getMessage(),
-              'file' => $exception->getFile(),
-              'line' => $exception->getLine(),
-              'trace' => explode("\n", $exception->getTraceAsString()),
-            ];
-
-        }else{
-
-            $data = [
-              'code' => $exception->getCode(),
-              'message' => $exception->getMessage(),
-            ];
-
-        }
-
-        return $c->get('response')->withHeader('Content-Type', 'application/json')->write(json_encode($data));
-    };
-};
-
 // Database
 $container['pdo'] = function ($container) {
 
